@@ -41,7 +41,7 @@ function previousPic(){
     if(picId != totalPics.length - 1){
         nextBtn.removeAttribute("disabled","disabled");
     }
-    let nextPic = totalPics[picId];
-    nextPic.classList.remove("hidden");
-    nextPic.classList.add("visible");
+    let prevPic = totalPics[picId];
+    prevPic.classList.remove("hidden");
+    prevPic.classList.add("visible");
 }
